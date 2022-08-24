@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+body {
+  background-color: white;
+}
+.nav {
+  display: flex;
+  justify-content: end;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+.gmail {
+  margin: 25px 0px 0 3px;
+}
+.image {
+  margin: 25px 0px 0 3px;
+}
+.menu img {
+  width: 20px;
+  height: 20px;
+  margin: 25px 0px 0 3px;
+}
+.perfil img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 20px 5px 0 3px;
+}
+.container {
+  text-align: center;
+}
+figure img {
+  width: 300px;
+  margin: 90px auto 0 auto;
+}
+.busca {
+  background-color: white;
+  width: 550px;
+  height: 35px;
+  margin: 15px auto;
+  border-radius: 30px;
+  display: flex;
+  border: 1.5px solid;
+  border-color: rgb(215, 215, 215);
+}
+.busca img {
+  width: 20px;
+  height: 20px;
+  margin: 7px;
+}
+input {
+  width: 530px;
+  border-radius: 0;
+  border-color: rgb(203, 203, 203);
+  margin: 7px 0 7px 0;
+  border: none;
+  background-color: white;
+}
+button {
+  margin: 0 auto 0 20px;
+  border-radius: 5px;
+  border: 2px;
+}
+button p {
+  margin: 10px;
+}
+footer {
+  background-color: whitesmoke;
+  display: flex;
+  margin: 168px 0;
+  width: 100%;
+}
+.detailsLeft,
+.detailsRight {
+  display: flex;
+  height: 23px;
+  margin: 15px 15px;
+}
+.detailsLeft,
+.detailsRight {
+}
+a {
+  color: black;
+  text-decoration: none;
+  margin: 12px;
+}
+.detailsLeft {
+  margin-right: 405px;
+}
