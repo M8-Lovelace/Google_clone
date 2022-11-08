@@ -1,11 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 15px;
+  box-sizing: border-box;
 }
 body {
   background-color: white;
+  height: 100vh;
 }
 .nav {
   display: flex;
@@ -17,7 +21,7 @@ body {
 }
 .nav a {
   text-decoration: none;
-  color: black;
+  color: rgb(65, 64, 64);
 }
 .gmail {
   margin: 25px 0px 0 3px;
@@ -39,6 +43,10 @@ body {
 }
 .container {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  align-items: center;
 }
 figure img {
   width: 300px;
@@ -74,27 +82,28 @@ button {
 }
 button p {
   margin: 10px;
+  color: rgb(65, 64, 64);
 }
 footer {
   background-color: whitesmoke;
   display: flex;
-  margin: 168px 0;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
   width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  height: 40px;
 }
 .detailsLeft,
 .detailsRight {
   display: flex;
-  height: 23px;
-  margin: 15px 15px;
+  text-align: center;
 }
-.detailsLeft,
-.detailsRight {
-}
+
 a {
-  color: black;
+  color: rgb(65, 64, 64);
   text-decoration: none;
-  margin: 12px;
-}
-.detailsLeft {
-  margin-right: 405px;
+  margin: 32px;
 }
